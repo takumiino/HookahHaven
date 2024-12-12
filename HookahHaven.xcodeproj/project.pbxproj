@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E14A47822D0AA53D002AF4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14A47672D0AA53B002AF4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14A476E2D0AA53B002AF4AD;
+			remoteInfo = HookahHaven;
+		};
+		E14A478C2D0AA53D002AF4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14A47672D0AA53B002AF4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14A476E2D0AA53B002AF4AD;
+			remoteInfo = HookahHaven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E14A476F2D0AA53B002AF4AD /* HookahHaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahHaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14A47812D0AA53D002AF4AD /* HookahHavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahHavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14A478B2D0AA53D002AF4AD /* HookahHavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahHavenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E14A47712D0AA53B002AF4AD /* HookahHaven */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HookahHaven;
+			sourceTree = "<group>";
+		};
+		E14A47842D0AA53D002AF4AD /* HookahHavenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HookahHavenTests;
+			sourceTree = "<group>";
+		};
+		E14A478E2D0AA53D002AF4AD /* HookahHavenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HookahHavenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14A476C2D0AA53B002AF4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A477E2D0AA53D002AF4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A47882D0AA53D002AF4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14A47662D0AA53B002AF4AD = {
+			isa = PBXGroup;
+			children = (
+				E14A47712D0AA53B002AF4AD /* HookahHaven */,
+				E14A47842D0AA53D002AF4AD /* HookahHavenTests */,
+				E14A478E2D0AA53D002AF4AD /* HookahHavenUITests */,
+				E14A47702D0AA53B002AF4AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14A47702D0AA53B002AF4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14A476F2D0AA53B002AF4AD /* HookahHaven.app */,
+				E14A47812D0AA53D002AF4AD /* HookahHavenTests.xctest */,
+				E14A478B2D0AA53D002AF4AD /* HookahHavenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14A476E2D0AA53B002AF4AD /* HookahHaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14A47952D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHaven" */;
+			buildPhases = (
+				E14A476B2D0AA53B002AF4AD /* Sources */,
+				E14A476C2D0AA53B002AF4AD /* Frameworks */,
+				E14A476D2D0AA53B002AF4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E14A47712D0AA53B002AF4AD /* HookahHaven */,
+			);
+			name = HookahHaven;
+			packageProductDependencies = (
+			);
+			productName = HookahHaven;
+			productReference = E14A476F2D0AA53B002AF4AD /* HookahHaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E14A47802D0AA53D002AF4AD /* HookahHavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14A47982D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHavenTests" */;
+			buildPhases = (
+				E14A477D2D0AA53D002AF4AD /* Sources */,
+				E14A477E2D0AA53D002AF4AD /* Frameworks */,
+				E14A477F2D0AA53D002AF4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14A47832D0AA53D002AF4AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E14A47842D0AA53D002AF4AD /* HookahHavenTests */,
+			);
+			name = HookahHavenTests;
+			packageProductDependencies = (
+			);
+			productName = HookahHavenTests;
+			productReference = E14A47812D0AA53D002AF4AD /* HookahHavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E14A478A2D0AA53D002AF4AD /* HookahHavenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14A479B2D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHavenUITests" */;
+			buildPhases = (
+				E14A47872D0AA53D002AF4AD /* Sources */,
+				E14A47882D0AA53D002AF4AD /* Frameworks */,
+				E14A47892D0AA53D002AF4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14A478D2D0AA53D002AF4AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E14A478E2D0AA53D002AF4AD /* HookahHavenUITests */,
+			);
+			name = HookahHavenUITests;
+			packageProductDependencies = (
+			);
+			productName = HookahHavenUITests;
+			productReference = E14A478B2D0AA53D002AF4AD /* HookahHavenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14A47672D0AA53B002AF4AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E14A476E2D0AA53B002AF4AD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E14A47802D0AA53D002AF4AD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E14A476E2D0AA53B002AF4AD;
+					};
+					E14A478A2D0AA53D002AF4AD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E14A476E2D0AA53B002AF4AD;
+					};
+				};
+			};
+			buildConfigurationList = E14A476A2D0AA53B002AF4AD /* Build configuration list for PBXProject "HookahHaven" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14A47662D0AA53B002AF4AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E14A47702D0AA53B002AF4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14A476E2D0AA53B002AF4AD /* HookahHaven */,
+				E14A47802D0AA53D002AF4AD /* HookahHavenTests */,
+				E14A478A2D0AA53D002AF4AD /* HookahHavenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14A476D2D0AA53B002AF4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A477F2D0AA53D002AF4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A47892D0AA53D002AF4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14A476B2D0AA53B002AF4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A477D2D0AA53D002AF4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14A47872D0AA53D002AF4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14A47832D0AA53D002AF4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14A476E2D0AA53B002AF4AD /* HookahHaven */;
+			targetProxy = E14A47822D0AA53D002AF4AD /* PBXContainerItemProxy */;
+		};
+		E14A478D2D0AA53D002AF4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14A476E2D0AA53B002AF4AD /* HookahHaven */;
+			targetProxy = E14A478C2D0AA53D002AF4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E14A47932D0AA53D002AF4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E14A47942D0AA53D002AF4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14A47962D0AA53D002AF4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HookahHaven/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E14A47972D0AA53D002AF4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HookahHaven/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E14A47992D0AA53D002AF4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookahHaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HookahHaven";
+			};
+			name = Debug;
+		};
+		E14A479A2D0AA53D002AF4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookahHaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HookahHaven";
+			};
+			name = Release;
+		};
+		E14A479C2D0AA53D002AF4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HookahHaven;
+			};
+			name = Debug;
+		};
+		E14A479D2D0AA53D002AF4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.HookahHavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HookahHaven;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14A476A2D0AA53B002AF4AD /* Build configuration list for PBXProject "HookahHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14A47932D0AA53D002AF4AD /* Debug */,
+				E14A47942D0AA53D002AF4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14A47952D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14A47962D0AA53D002AF4AD /* Debug */,
+				E14A47972D0AA53D002AF4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14A47982D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14A47992D0AA53D002AF4AD /* Debug */,
+				E14A479A2D0AA53D002AF4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14A479B2D0AA53D002AF4AD /* Build configuration list for PBXNativeTarget "HookahHavenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14A479C2D0AA53D002AF4AD /* Debug */,
+				E14A479D2D0AA53D002AF4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14A47672D0AA53B002AF4AD /* Project object */;
+}
