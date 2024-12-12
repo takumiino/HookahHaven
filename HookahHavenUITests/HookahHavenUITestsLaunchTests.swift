@@ -1,10 +1,3 @@
-//
-//  HookahHavenUITestsLaunchTests.swift
-//  HookahHavenUITests
-//
-//  Created by 拓実 on 2024/12/12.
-//
-
 import XCTest
 
 final class HookahHavenUITestsLaunchTests: XCTestCase {

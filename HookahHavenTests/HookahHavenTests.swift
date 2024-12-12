@@ -1,10 +1,3 @@
-//
-//  HookahHavenTests.swift
-//  HookahHavenTests
-//
-//  Created by 拓実 on 2024/12/12.
-//
-
 import XCTest
 @testable import HookahHaven
 
